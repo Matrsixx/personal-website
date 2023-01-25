@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div className="App">
-
+      
       <div className="Header">
         <div id="Header-Left">
           <h1>Vincent</h1>
