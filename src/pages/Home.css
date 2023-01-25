@@ -1,0 +1,35 @@
+section{
+    font-family: 'UniqloPro Bold', 'Helvetica Neue', HelveticaNeue, Helvetica, 'Noto Sans', Roboto, Arial, 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', '\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3', 'Noto Sans CJK JP', Osaka, Meiryo, '\30E1\30A4\30EA\30AA', 'MS PGothic', 'MS P\30B4\30B7\30C3\30AF', 'Hiragino Sans GB', 'Arial Unicode MS', sans-serif
+}
+
+#Section-h1{
+    font-size: 30px;
+}
+
+.Content{
+    display: block;
+    padding: 10px;
+    width: 60%;
+    margin: 3rem auto 0 auto;
+}
+
+#Content-text-p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Linkedin-logo{
+    border: 2px solid black;
+    width: 200px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+#Linkedin-logo:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+
+@media only screen and (max-width: 1000px) {
+}

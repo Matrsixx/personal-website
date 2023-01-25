@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  font-family: 'UniqloPro Bold', 'Helvetica Neue', HelveticaNeue, Helvetica, 'Noto Sans', Roboto, Arial, 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', '\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3', 'Noto Sans CJK JP', Osaka, Meiryo, '\30E1\30A4\30EA\30AA', 'MS PGothic', 'MS P\30B4\30B7\30C3\30AF', 'Hiragino Sans GB', 'Arial Unicode MS', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Header{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.Line{
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+#Header-Right{
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+#Header-Left{
+  margin-left: 50px;
+  color: white;
+}
+
+#Header-Right-Link{
+  margin-right: 40px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#Header-Right-Link:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: rgb(255, 255, 255);
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

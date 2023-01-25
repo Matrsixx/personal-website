@@ -1,0 +1,33 @@
+#Contact-Title{
+    font-size: 60px;
+}
+
+#Contact-Title-p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    margin: 0 auto 0;
+}
+
+#img-mail{
+    width: 80px;
+    margin: 0 auto 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#img-text{
+    text-decoration: none;
+    color: black;
+}
+
+.center-contact{
+    display: flex;
+    justify-content: center;
+}
+
+#contact-div{
+    /* padding-right: 50px;
+    padding-left: 50px */
+
+}
+
