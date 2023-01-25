@@ -36,7 +36,7 @@ function Home(){
                 <br></br>
                 <br></br>
                 <p>More on Linkedin</p>
-                <a href="https://www.linkedin.com/in/vincent-aldiandra-256952212/"><img src="./Linkedin.png" id="Linkedin-logo"></img></a>
+                <a href="https://www.linkedin.com/in/vincent-aldiandra-256952212/"><img src="https://cdn.discordapp.com/attachments/524461320314028052/1067852276527538357/Linkedin.png" id="Linkedin-logo"></img></a>
             </div>
 
             <br></br>
